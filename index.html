@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
     <title>A first App</title>
 </head>
 <body>
     <div id="app">
         <div>
             <label for="goal">My Goal</label>
-            <input type="text" id="goal" v-model="enterdVale">
+            <input type="text" id="goal" v-model="enteredValue">
             <button v-on:click="addGoal">Add my goal</button>
         </div>
         <ul>
             <li v-for="goal in goals">{{ goal }}</li>
         </ul>
     </div>
-    <script src="index.js"></script>
     <script src="https://unpkg.com/vue@next"></script>
+    <script src="index.js"></script>
+    
 </body>
 </html>
