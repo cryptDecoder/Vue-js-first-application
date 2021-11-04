@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+div {
+  margin: 2%;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+
+#app {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+label {
+  color: #0080ff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  background-color: #6495ed;
+  border: none;
+  padding: 7px 10px;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+h3 {
+  color: blue;
+  font-size: 20px;
+  background-color: white;
+}
