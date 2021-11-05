@@ -7,14 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <div>
-            <h1>Get Number and show </h1>
-        </div>
-        <div>
-            <label for="number1">Enter your number</label>
-            <input type="number">
-        </div>
+    <div >
+       <header>
+            <div>
+                <h1>Addition of Numbers</h1>
+            </div>
+       </header>
+        <section id="app">
+            <div>
+                <label for="number1">Enter your First number</label>
+                <input type="number" v-model,number="number1"><br>
+                <label for="number2">Enter your Second Number</label>
+                <input type="number" v-model.number="number2"><br>
+                <button>Result Show</button>
+                <div v-on:click="showNumbers">Result</div>
+                <p></p>
+            </div>
+        </section>
     </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
 </body>
 </html>
