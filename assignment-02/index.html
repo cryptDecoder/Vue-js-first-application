@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+       <header>
+            <div>
+                <h1>Addition of Numbers</h1>
+            </div>
+       </header>
+        <section id="app">
+            <div>
+                <label for="number1">Enter your First number</label>
+                <input type="number" v-model,number="number1"><br>
+                <label for="number2">Enter your Second Number</label>
+                <input type="number" v-model.number="number2"><br>
+                <button>Result Show</button>
+                <div v-on:click="showNumbers">Result</div>
+                <p></p>
+            </div>
+        </section>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  margin: 20px;
+}
+header {
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 2px;
+  text-align: center;
+  background-color: Coral;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+section {
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+p {
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
+  color: white;
+  background-color: coral;
+  margin: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+}
+
+hr {
+  margin-left: 25px;
+  margin-right: 25px;
+  border: solid 2px coral;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background-color: coral;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
