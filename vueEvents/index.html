@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Event Binding</title>
+   
+</head>
+<body>
+    <header>
+        <h2>Vue Events in actions</h2>
+    </header>
+    <section id="events">
+        <h2>Vue Actions</h2>
+        <hr>
+        <button v-on:click="counter++">add</button>
+        <button v-on:click="counter=counter-1">remove</button>
+        <p>Result : {{ counter }}</p>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

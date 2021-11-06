@@ -7,7 +7,6 @@ const app = Vue.createApp({
     },
     methods: {
         showNumbers() {
-            const total = this.number1 + this.number2
             console.log(this.number1);
         }
     }
