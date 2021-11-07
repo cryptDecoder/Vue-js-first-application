@@ -15,9 +15,15 @@
     <section id="events">
         <h2>Vue Actions</h2>
         <hr>
-        <button v-on:click="counter++">add</button>
-        <button v-on:click="counter=counter-1">remove</button>
+        <button v-on:click="add()">add</button>
+        <button v-on:click="remove()">remove</button>
         <p>Result : {{ counter }}</p>
+        <input type="text" name="name" id="name" v-on:input="setName">
+        <p>Enter your name : {{ name }}</p>
+        <form v-on:submit="submitForm">
+            <input type="text" v-model="username">
+            <button>sign in</button>
+        </form>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
     <script src="app.js"></script>
